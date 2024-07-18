@@ -132,7 +132,7 @@
 </main>
 
     </div>
-    <footer class="bg-gray-800 text-white py-4 mt-auto">
+    <footer class="bg-gray-800 text-white py-12 mt-auto">
         <div class="container mx-auto px-6 text-center">
             <p>&copy; 2024 Gestion des Dettes. Tous droits réservés.</p>
         </div>

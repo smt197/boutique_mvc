@@ -62,7 +62,7 @@
                     <?php if (isset($utilisateur)) : ?>
                         <span class="ml-2"><?= htmlspecialchars($utilisateur->nom ?? '') ?></span>
                         <span class="ml-2"><?= htmlspecialchars($utilisateur->prenom ?? '') ?></span>
-                        <span class="ml-4 font-bold">Enregistrer une nouvelle dette</span>
+                        <!-- <span class="ml-4 font-bold">Enregistrer une nouvelle dette</span> -->
                 </div>
                 <div class="mb-4">
                     <span class="font-bold">Téléphone:</span>
@@ -159,7 +159,7 @@
             </div>
         </main>
     </div>
-    <footer class="bg-gray-800 text-white py-4 mt-auto">
+    <footer class="bg-gray-800 text-white py-12 mt-auto">
         <div class="container mx-auto px-6 text-center">
             <p>&copy; 2024 Gestion des Dettes. Tous droits réservés.</p>
         </div>

@@ -26,8 +26,8 @@
                 <div class="text-xl font-semibold text-gray-700">Gestion des Dettes</div>
                 <div>
                     <a href="utilisateurs" class="text-gray-700 hover:text-gray-900 mr-4">Accueil</a>
-                    <!-- <a href="#" class="text-gray-700 hover:text-gray-900 mr-4">Profil</a>
-                    <a href="#" class="text-gray-700 hover:text-gray-900">Déconnexion</a> -->
+                    <a href="#" class="text-gray-700 hover:text-gray-900 mr-4"><img src="/img/logo.png" alt="Logo" class="h-10 w-10 mr-3"></a>
+                    <!-- <a href="#" class="text-gray-700 hover:text-gray-900">Déconnexion</a>  -->
                 </div>
             </div>
         </nav>
@@ -213,7 +213,7 @@
         </main>
 
     </div>
-    <footer class="bg-gray-800 text-white py-4 mt-auto">
+    <footer class="bg-gray-800 text-white py-12 mt-auto">
         <div class="container mx-auto px-6 text-center">
             <p>&copy; 2024 Gestion des Dettes. Tous droits réservés.</p>
         </div>
