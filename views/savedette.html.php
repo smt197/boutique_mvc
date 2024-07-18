@@ -98,7 +98,7 @@
                         </div>
                         <div>
                             <label class="block text-sm font-medium text-gray-700">Prix</label>
-                            <input type="text" value="<?= htmlspecialchars($article->prix) ?>" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" disabled />
+                            <input type="text" value="<?= htmlspecialchars($article->prix) ?>" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" />
                         </div>
                         <div>
                             <label class="block text-sm font-medium text-gray-700">Quantité</label>
@@ -159,6 +159,11 @@
             </div>
         </main>
     </div>
+    <footer class="bg-gray-800 text-white py-4 mt-auto">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Gestion des Dettes. Tous droits réservés.</p>
+        </div>
+    </footer>
 
     <script>
         function toggleMenu(id) {
