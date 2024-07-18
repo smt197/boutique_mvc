@@ -1,0 +1,9 @@
+# Services:
+#   Validator:
+#     class: App\Core\Validator\ConcreteValidator
+
+Services:
+  Validator:
+    class: App\Core\Validator\ConcreteValidator
+  Session:
+    class: App\Core\Session
